@@ -36,6 +36,9 @@
     "url": "https://github.com/mljs/pca/issues"
   },
   "homepage": "https://github.com/mljs/pca",
+  "browserify": {
+    "transform": [["babelify", { "presets": ["es2015"] }]]
+  },
   "dependencies": {
     "ml-matrix": "^1.1.5",
     "ml-stat": "^1.1.0"
